@@ -1,0 +1,6 @@
+This folder is to put all the brep files, please find the data at https://huggingface.co/datasets/WATERICECREAM/BuildingBRep11k.
+
+Unzip BuildingBRep11k.tar, you will see directory like this:
+
+BuildingBRep11k
+|-
