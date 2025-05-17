@@ -27,7 +27,16 @@ pip install torchmetrics==1.3.2 open3d pandas tqdm
 
 # ❹ install OpenCASCADE (OCP) bindings
 conda install -c conda-forge -c cadquery ocp
-
+```
 
 
 ## 2 Dataset
+
+The dataset can be found at https://huggingface.co/datasets/WATERICECREAM/BuildingBRep11k. 
+
+| Task                       | Metric            | Score |
+|----------------------------|-------------------|-------|
+| Multi-attribute regression | Storey MAE        | 0.37  |
+|                            | Room tot MAE      | 5.7   |
+|                            | Avg area MAE (m²) | 3.2   |
+| Defect classification      | Accuracy          | 0.54  |
