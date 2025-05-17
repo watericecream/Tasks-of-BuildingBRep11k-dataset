@@ -56,6 +56,52 @@ Please make sure the environment is ready, then cd to the whole project's direct
 ```bash
 cd Task1_mul_att_reg
 ```
+Make a new folder "data" and copy all .step files into "data".
 
 For testing the existed model "pointnet_multi.pth":
 
+```bash
+python test.py
+```
+
+The program will randomly select 100 samples from "data" and produce "predict_multi.txt" with predictions.
+
+For training a new model:
+
+```bash
+python train.py
+```
+
+The program will start to train with randomly seleced 5000 samples recorded in "meta_5000.npy". If a new training with all 11k samples is required, just replace the existed .npy and .json files by those from huggingface, and replace the meta file name in dataset.py.
+
+### 2 Task 2
+
+```bash
+cd Task2_def_det
+```
+
+Copy the two folders - "data" and "data_test" - from Repro_t2.zip into this directory. In this task, contents in "data" are for training and "data_test" for testing.
+
+For testing the existed model "pre_train.pth":
+
+```bash
+python batch_inference_classify.py data_test/ pre_train.pth test_result.csv
+```
+
+The data directory, model and record can be user defined in line.
+
+For training a new model:
+
+```bash
+python train_classify.py
+```
+
+The program will start to train with already selected 5000 good breps in "data/good/" and 5000 bad breps in "data/bad".
+
+If more defected breps are needed, simply run 
+
+```bash
+python make_defect.py
+```
+
+don't forget to put the good breps neede to be made defect in the right folder.
