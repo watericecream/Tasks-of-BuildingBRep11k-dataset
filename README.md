@@ -34,9 +34,11 @@ conda install -c conda-forge -c cadquery ocp
 
 The dataset can be found at https://huggingface.co/datasets/WATERICECREAM/BuildingBRep11k. 
 
-| Task                       | Metric            | Score |
+These are the details of each file.
+
+| Filenname     | Description            | Score |
 |----------------------------|-------------------|-------|
-| Multi-attribute regression | Storey MAE        | 0.37  |
+|BuildingBRep11k.tar  | The mainbody of dataset, containing folder "3d_objects" with breps and  folder "images" with thumbnails | 0.37  |
 |                            | Room tot MAE      | 5.7   |
 |                            | Avg area MAE (m²) | 3.2   |
 | Defect classification      | Accuracy          | 0.54  |
