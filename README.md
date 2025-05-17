@@ -36,11 +36,18 @@ The dataset can be found at https://huggingface.co/datasets/WATERICECREAM/Buildi
 
 These are the details of each file.
 
-| Filenname     | Description            | Score |
-|----------------------------|-------------------|-------|
+| Filenname     | Description            |
+|----------------------------|-------------------|
 |BuildingBRep11k.tar|The mainbody of dataset, containing folder "3d_objects" with breps and  folder "images" with thumbnails|
 |BuildingBRep11k/3d_objects|Subfolder, with all 11k .brep files in it|
 |BuildingBRep11k/images|Subfolder, with all 11k breps' thumbnails in it.|
 |meta.json|Detailed parameters of all 11k breps|
 |meta.npy|Same content with the json file|
 |Repro_t2.zip|Data used to reproduce the random sample in task2|
+|Repro_t2/data|Subfolder, with data used for training the pth in task2.|
+|Repro_t2/data_temp|Subfolder, with random selected samples testing in task2.|
+
+## 3 Task 1
+
+Please make sure the environment is ready.
+
