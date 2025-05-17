@@ -38,7 +38,8 @@ These are the details of each file.
 
 | Filenname     | Description            | Score |
 |----------------------------|-------------------|-------|
-|BuildingBRep11k.tar  | The mainbody of dataset, containing folder "3d_objects" with breps and  folder "images" with thumbnails | 0.37  |
-|                            | Room tot MAE      | 5.7   |
-|                            | Avg area MAE (m²) | 3.2   |
+|BuildingBRep11k.tar|The mainbody of dataset, containing folder "3d_objects" with breps and  folder "images" with thumbnails|0.37|
+|--BuildingBRep11k/3d_objects|Detailed parameters of the main dataset| 5.7 |
+|meta.json|Detailed parameters of the main dataset| 5.7 |
+|meta.npy|Same content with the json file| 3.2 |
 | Defect classification      | Accuracy          | 0.54  |
