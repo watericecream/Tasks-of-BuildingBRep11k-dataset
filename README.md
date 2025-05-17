@@ -47,8 +47,15 @@ These are the details of each file.
 |Repro_t2/data|Subfolder, with data used for training the pth in task2.|
 |Repro_t2/data_test|Subfolder, with random selected samples testing in task2.|
 
-## 3 Task 1
+## 3 Run
 
-Please make sure the environment is ready.
+Please make sure the environment is ready, then cd to the whole project's direction.
 
-For training the model,
+### 1 Task 1
+
+```bash
+cd Task1_mul_att_reg
+```
+
+For testing the existed model "pointnet_multi.pth":
+
