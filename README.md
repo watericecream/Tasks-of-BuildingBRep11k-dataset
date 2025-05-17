@@ -38,8 +38,9 @@ These are the details of each file.
 
 | Filenname     | Description            | Score |
 |----------------------------|-------------------|-------|
-|BuildingBRep11k.tar|The mainbody of dataset, containing folder "3d_objects" with breps and  folder "images" with thumbnails|0.37|
-|--BuildingBRep11k/3d_objects|Detailed parameters of the main dataset| 5.7 |
-|meta.json|Detailed parameters of the main dataset| 5.7 |
-|meta.npy|Same content with the json file| 3.2 |
-| Defect classification      | Accuracy          | 0.54  |
+|BuildingBRep11k.tar|The mainbody of dataset, containing folder "3d_objects" with breps and  folder "images" with thumbnails|
+|BuildingBRep11k/3d_objects|Subfolder, with all 11k .brep files in it|
+|BuildingBRep11k/images|Subfolder, with all 11k breps' thumbnails in it.|
+|meta.json|Detailed parameters of all 11k breps|
+|meta.npy|Same content with the json file|
+|Repro_t2.zip|Data used to reproduce the random sample in task2|
