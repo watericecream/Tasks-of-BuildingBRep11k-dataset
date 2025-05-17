@@ -45,9 +45,10 @@ These are the details of each file.
 |meta.npy|Same content with the json file|
 |Repro_t2.zip|Data used to reproduce the random sample in task2|
 |Repro_t2/data|Subfolder, with data used for training the pth in task2.|
-|Repro_t2/data_temp|Subfolder, with random selected samples testing in task2.|
+|Repro_t2/data_test|Subfolder, with random selected samples testing in task2.|
 
 ## 3 Task 1
 
 Please make sure the environment is ready.
 
+For training the model,
